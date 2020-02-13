@@ -1,0 +1,49 @@
+/*
+* by robert.szeiman
+* 17.04.12
+*/
+
+/* simple frontend design, nothing too fancy */
+body{
+  font-family:Meiryo UI;
+  font-size:larger;
+  padding:10px;
+}
+
+table{
+ margin-left: auto;
+ margin-right: auto;
+}
+
+table, th, tr, td{
+  border-collapse: collapse;
+  border:2px DarkGray solid;
+  padding:10px;
+}
+
+th{
+  width:150px;
+  height:80px;
+  text-align:left;
+  vertical-align:top;
+  background-color:WhiteSmoke;
+}
+
+td{
+  text-align:left;
+  vertical-align:bottom
+}
+/* errors area */
+.error{
+  font-size:small;
+  color:red;
+}
+
+/* hints area */
+.description{
+  font-size:small;
+}
+
+.center{
+  text-align:center;
+}
